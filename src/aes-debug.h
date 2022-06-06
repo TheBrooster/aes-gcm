@@ -45,14 +45,14 @@ extern int aes_debug_timestamp;
 #ifndef AES_DEBUG
 
 #define aes_debug_print_timestamp() do { } while (0)
-#define aes_printf(args...) do { } while (0)
+#define aes_printf(args) do { } while (0)
 #define aes_hexdump(l,t,b,le) do { } while (0)
 #define aes_hexdump_buf(l,t,b) do { } while (0)
 #define aes_hexdump_key(l,t,b,le) do { } while (0)
 #define aes_hexdump_buf_key(l,t,b) do { } while (0)
 #define aes_hexdump_ascii(l,t,b,le) do { } while (0)
 #define aes_hexdump_ascii_key(l,t,b,le) do { } while (0)
-#define aes_dbg(args...) do { } while (0)
+#define aes_dbg(args) do { } while (0)
 
 #else
 
